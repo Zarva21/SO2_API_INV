@@ -6,7 +6,7 @@ const inventario = require('../controllers/inventory.controller');
 const producto = require('../controllers/product.controller');
 
 //Rutas para usuarios
-router.get('/auth/login', usuario.login);
+router.post('/auth/login', usuario.login);
 
 //Rutas para inventario
 router.get('/inventario', inventario.getReporte);
