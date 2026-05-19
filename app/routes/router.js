@@ -1,9 +1,9 @@
 const express = require('express');
 const router = express.Router();
 
-const usuario = require('../controllers/user.controller');
-const inventario = require('../controllers/inventory.controller');
-const producto = require('../controllers/product.controller');
+const usuario = require('../controller/user.controller');
+const inventario = require('../controller/inventory.controller');
+const producto = require('../controller/product.controller');
 
 //Rutas para usuarios
 router.post('/auth/login', usuario.login);
