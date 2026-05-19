@@ -1,0 +1,22 @@
+# Dependencies
+/node_modules
+.pnpm-debug.log*
+.npm-debug.log*
+
+# Environment
+.env
+.env.*
+!.env.example
+
+# Build & Compiled Output
+/dist
+/build
+/out
+*.tsbuildinfo
+
+# OS & Editor Artifacts
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+*.sublime-*
