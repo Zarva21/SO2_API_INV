@@ -45,3 +45,5 @@ const Categoria = {
         }
     }
 }
+
+module.exports = Categoria;
