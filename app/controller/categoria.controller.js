@@ -1,4 +1,4 @@
-const Categoria = require('../models/categoria.model');
+const Categoria = require('../model/categoria.model');
 const redisClient = require('../config/redis.config');
 
 const CACHE_KEY = 'categorias:lista'
@@ -93,7 +93,7 @@ const categoriaController = {
                 return res.status(401).json({message: 'Sesion expirada o invalida. Inicie sesion nuevamente.'});
             }
 
-            const { id_categoria } = req.body;
+            const { id_categoria } = req.params;
             if (!id_categoria) {
                 return res.status(400).json({message: 'El campo id_categoria es requerido'});
             }
