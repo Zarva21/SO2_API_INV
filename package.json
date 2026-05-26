@@ -16,7 +16,7 @@
       "onFail": "download"
     }
   },
-  "type": "module",
+  "type": "commonjs",
   "dependencies": {
     "cors": "^2.8.6",
     "dotenv": "^17.4.2",
