@@ -1,4 +1,4 @@
-const Categoria = require('../models/categoria.model');
+const Categoria = require('../model/categoria.model');
 const redisClient = require('../config/redis.config');
 
 const CACHE_KEY = 'categorias:lista'
